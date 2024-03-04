@@ -1,20 +1,22 @@
-/* Use this file to use your own styles*/
 
-/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-/* Styles for the body */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet');
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+	 font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-/* Styles for custom classes in the document. (There are more, try to find them out!) */
-
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #deceff;
+}
+
+.resume-introduction {
+	font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+	
 }
 
 .resume-main {
@@ -22,13 +24,26 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #C8EEE9;
 }
 
-/* Styles for lists in the document */
+.languages {
+	font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
+
+.other-skills {
+	font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
 
 .biography-details li::before, .skill-list li::before {
 	content: ">";
+	color: #f23797;
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
@@ -36,14 +51,26 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #f23797;
 }
 
-.biography-details li, .skill-list li {
+.biography-details li, .skill-list li{
 	padding-left: 1em;
 }
 
-/* Styles for contact icons */
+.biography-details {
+	font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
+
+.interests-hobbies {
+	font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
 
 .contact-icon {
 	height: 1em;
